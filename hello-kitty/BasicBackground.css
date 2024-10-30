@@ -1,7 +1,8 @@
-@import url(https://vsthemes.org/uploads/generator/client/ThemeDevBadge.css);
-@import url(https://vsthemes.org/uploads/generator/client/SettingsIcons.css);
-@import url(https://vsthemes.org/uploads/generator/client/BlurpleRecolor.css);
-@import url(https://vsthemes.org/uploads/generator/client/usrbg.css);
+@import url(https://raw.githubusercontent.com/AdemErsln/BTTHEMES/refs/heads/main/hello-kitty/BlurpleRecolor.css);
+@import url(https://raw.githubusercontent.com/AdemErsln/BTTHEMES/refs/heads/main/hello-kitty/SettingsIcons.css);
+@import url(https://raw.githubusercontent.com/AdemErsln/BTTHEMES/refs/heads/main/hello-kitty/ThemeDevBadge.css);
+@import url(https://raw.githubusercontent.com/AdemErsln/BTTHEMES/refs/heads/main/hello-kitty/usrbg.css);
+
 
 :root {
 	--dtransparencycolor:			0,0,0;
