@@ -7,7 +7,7 @@
  * @authorLink https://vsthemes.org/user/Request/
  * @authorId 2
  */
- @import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+ @import url(https://raw.githubusercontent.com/AdemErsln/BTTHEMES/refs/heads/main/hello-kitty/BasicBackground.css);
 
  :root {
      --transparencycolor: 0,0,0;
