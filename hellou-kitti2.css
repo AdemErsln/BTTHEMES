@@ -6,16 +6,17 @@
  * @source https://vsthemes.org/en/skins/discord/51041-hellou-kitti.html
  * @authorLink https://vsthemes.org/user/Request/
  * @authorId 2
-*/
+ */
 @import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+
 :root {
     --transparencycolor: 0,0,0;
-    --transparencyalpha: 0.3;
-    --messagetransparency: 0.15;
-    --guildchanneltransparency: 0.4;
-    --memberlistransparency: 0;
+    --transparencyalpha: 0.7; /* Sağ tıklama menüsünün transparanlığını azaltır */
+    --messagetransparency: 0.1; /* Mesajların arka plan transparanlığını azaltır */
+    --guildchanneltransparency: 0.2; /* Kanalların transparanlığını azaltır */
+    --memberlistransparency: 0.2; /* Üye listesinin transparanlığını azaltır */
     --accentcolor: 150,24,145;
-    --background: url("hgttps://vsthemes.org/uploads/posts/2022-04/1649521832_-kitti-oboi-na-rabochij-stol-10.webp");
+    --background: url("https://vsthemes.org/uploads/posts/2022-04/1649521832_-kitti-oboi-na-rabochij-stol-10.webp");
     --backdrop: rgba(0,0,0,0.2);
     --backgroundblur: 0px;
     --popoutblur: 0px;
@@ -24,4 +25,28 @@
     --backgroundsize: cover;
     --popoutsize: cover;
     --backdropsize: cover;
+
+    /* Yazı renk ayarı */
+    --textcolor: 255, 255, 255; /* Gri yazıları beyaza çevir */
+}
+
+/* Saydamlık ve yazı rengi ayarları */
+body, .content-region, .messageContent {
+    color: rgba(var(--textcolor), 1) !important; /* Yazıları daha parlak yap */
+}
+
+/* Sağ tıklama menüsü için arka plan opaklığı */
+.contextMenu-HLZMGh {
+    background-color: rgba(20, 20, 20, 0.9) !important; /* Sağ tıklama menüsünü daha opak yap */
+    color: rgba(255, 255, 255, 0.9) !important; /* Sağ tıklama menüsü yazı rengini beyaz yap */
+}
+
+/* Mesaj kutularının arka plan saydamlığını azalt */
+.message-2qnXI6 {
+    background-color: rgba(0, 0, 0, var(--messagetransparency)) !important;
+}
+
+/* Kanal ve üye listesi transparanlığını azalt */
+.container-2o3qEW, .members-1998pB, .channels-3g2vYe {
+    background-color: rgba(0, 0, 0, var(--guildchanneltransparency)) !important;
 }
